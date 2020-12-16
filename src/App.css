@@ -1,38 +1,57 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+body{
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-between;
+  margin: 0px;
+  height: 100vh;
+  width: 100vw;
+  font-size: 16px;
+  font-family: 'Share Tech Mono', monospace;
+  background-color: #3d3c37;
+  background-image: url("data:image/svg+xml,%3Csvg width='20' height='10' viewBox='0 0 20 10' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M16 6H6v4H4V6H2V4h2V0h2v4h10V0h2v4h2v2h-2v4h-2V6z' fill='%231f1e19' fill-opacity='0.4' fill-rule='evenodd'/%3E%3C/svg%3E");
 }
-
-.App-link {
-  color: #61dafb;
+table{
+  width: 60%;
+  min-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  table-layout: fixed;
+  border: 5px solid #060409;
+  background-color:#1f1e19;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+th{
+  background-color: #3d3c37;
+  color: #ec9801;
+}
+h1, footer, #loading{
+  color: #ec9801;
+  text-align: center;
+}
+td{
+  border: 5px solid #1f1e19;
+}
+.boardLetters{
+  background-color:#3d3c37;
+  border: 0.5px solid #1f1e19;
+}
+.invi{
+  color: transparent;
+}
+.channel{
+  width: 20%;
+}
+.view{
+  width: 15%;
+}
+.status{
+  width: 15%;
+}
+.online{
+  color: #048b15;
+}
+.offline{
+  color:#e10718;
+}
+#view-head,#channel-head,#status-head,#about-head{
+  border-bottom:5px solid #060409;
 }
